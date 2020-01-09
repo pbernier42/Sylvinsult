@@ -8,35 +8,48 @@ class Sentence extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      gender: getRandomWord(["male", "female"]),
       sentence: "Clic pour générer un compliment"
     }
   }
 
-  _getSubject() {
-    var subject = getRandomWord(words.subject[this.state.gender]);
+  _getSubject(gender) {
+    var subject = getRandomWord(words.subject[gender]);
     return (
       isUpperCase(subject[0]) ?
         subject :
-        getRandomWord(words.possessive[this.state.gender]) + " " + subject
+        getRandomWord(words.possessive[gender]) + " " + subject
     )
   }
 
-  _getAmplifier(subject) {
+  _getAmplifier(gender, subject) {
     var amplifier = getRandomWord(words.amplifier);
     if (subject == "Espéce")
       var pronom = isVowel(amplifier[0]) ? "d\'" : ("de" + ' ');
     else
-      var pronom = isVowel(amplifier[0]) ? "l\'" : words.pronom[this.state.gender] + ' ';
+      var pronom = isVowel(amplifier[0]) ? "l\'" : words.pronom[gender] + ' ';
     return pronom + amplifier
   }
 
-  _getSentence() {
-    var subject = this._getSubject(this.state.gender);
+  _getAdjectif(gender) {
+    return getRandomWord(words.adjectif[gender])
+  }
+
+  _getComplement(gender) {
+    var complement = getRandomWord(words.complement);
     return (
-      subject + ' ' +
-      this._getAmplifier(subject, this.state.gender) + ' '
+      gender == "female" &
+      complement[complement.length - 1] == 'é' ?
+        complement + 'e' : complement
     )
+  }
+
+  _getSentence() {
+    var gender = getRandomWord(["male", "female"]);
+    var subject = this._getSubject(gender);
+    var amplifier = this._getAmplifier(gender, subject);
+    var adjectif = this._getAdjectif(gender);
+    var complement = this._getComplement(gender);
+    return subject + ' ' + amplifier + ' ' + adjectif + ' ' + complement
   }
 
   _loadSentence() {
@@ -44,7 +57,6 @@ class Sentence extends React.Component {
   }
 
   render () {
-    var gender = getRandomWord(["male", "female"]);
     return (
       <TouchableWithoutFeedback onPress={() => this._loadSentence()}>
         <View style={styles.main_container}>
@@ -73,7 +85,8 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   sentence_text: {
-    fontSize: 20
+    fontSize: 20,
+    textAlign: "center"
   }
 })
 

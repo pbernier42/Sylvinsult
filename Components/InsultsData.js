@@ -25,7 +25,8 @@ export default words = {
       "soeur",
       "mére",
       "cousine",
-      "grande-tante"
+      "grande-tante",
+      "souris"
     ]
   },
   pronom: {
@@ -38,5 +39,29 @@ export default words = {
     "méga",
     "giga",
     "octo"
+  ],
+  adjectif: {
+    male: [
+      "connard",
+      "pain au lait",
+      "étron",
+      "prof de twerk",
+      "scout"
+    ],
+    female: [
+      "connasse",
+      "pétasse",
+      "grognasse",
+      "prof de twerk",
+      "scoute"
+    ]
+  },
+  complement: [
+    "mal lavé",
+    "fatigué",
+    "éclopé",
+    "centenaire",
+    "sur l'autoroute",
+    "qui boit du sprit",
   ]
 }
