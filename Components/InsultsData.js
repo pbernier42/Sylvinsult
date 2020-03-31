@@ -60,7 +60,10 @@ export default words = {
       "sac à foutre",
       "esclave",
       "moule à gaufre",
-      "jambonneau"
+      "jambonneau",
+      "terroriste",
+      "troue du cul",
+      "couillon"
     ],
     female: [
       "connasse",
@@ -71,7 +74,11 @@ export default words = {
       "babouine",
       "secrétaire",
       "pute",
-      "esclave"
+      "esclave",
+      "femme de ménage",
+      "lesbienne",
+      "couillonne",
+      "tartelette"
     ]
   },
   complement: [
@@ -94,6 +101,11 @@ export default words = {
     "enculé",
     "écartelé",
     "noir",
-    "sodomite"
+    "sodomite",
+    "séché",
+    "lgbt",
+    "obèse",
+    "détraqué",
+    "ravagé"
   ]
 }
