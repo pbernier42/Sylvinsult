@@ -11,6 +11,9 @@ export default words = {
   },
   subject: {
     male: [
+      "Lounis",
+      "Benjamin",
+      "Pacôme",
       "Sylvain",
       "Espéce",
       "frére",
@@ -18,7 +21,7 @@ export default words = {
       "cousin",
       "chien",
       "chat",
-      "dromadaire"
+      "dromadaire",
     ],
     female: [
       "Espéce",
@@ -26,7 +29,7 @@ export default words = {
       "mére",
       "cousine",
       "grande-tante",
-      "souris"
+      "souris",
     ]
   },
   pronom: {
@@ -38,7 +41,8 @@ export default words = {
     "ultra",
     "méga",
     "giga",
-    "octo"
+    "octo",
+    "supra"
   ],
   adjectif: {
     male: [
@@ -46,14 +50,28 @@ export default words = {
       "pain au lait",
       "étron",
       "prof de twerk",
-      "scout"
+      "scout",
+      "tambourin",
+      "chaudron",
+      "babouin",
+      "négre de maison",
+      "gigolo",
+      "gay",
+      "sac à foutre",
+      "esclave",
+      "moule à gaufre",
+      "jambonneau"
     ],
     female: [
       "connasse",
       "pétasse",
       "grognasse",
       "prof de twerk",
-      "scoute"
+      "scoute",
+      "babouine",
+      "secrétaire",
+      "pute",
+      "esclave"
     ]
   },
   complement: [
@@ -63,5 +81,19 @@ export default words = {
     "centenaire",
     "sur l'autoroute",
     "qui boit du sprit",
+    "du bendo",
+    "sur le périf\'",
+    "dabbant ses grands morts",
+    "trisomique",
+    "sirotant un pénis",
+    "chauve",
+    "enterré",
+    "mal baisé",
+    "suicidaire",
+    "qui mange ses morts",
+    "enculé",
+    "écartelé",
+    "noir",
+    "sodomite"
   ]
 }
