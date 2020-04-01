@@ -63,7 +63,12 @@ export default words = {
       "jambonneau",
       "terroriste",
       "troue du cul",
-      "couillon"
+      "couillon",
+      "bougnoul",
+      "philantrope juif",
+      "homme de cro magnon",
+      "sauvageon",
+      "cadavre"
     ],
     female: [
       "connasse",
@@ -78,7 +83,12 @@ export default words = {
       "femme de ménage",
       "lesbienne",
       "couillonne",
-      "tartelette"
+      "tartelette",
+      "macronade",
+      "sauvageonne",
+      "allumeuse",
+      "boite d'allumette",
+      "serpillère"
     ]
   },
   complement: [
@@ -106,6 +116,10 @@ export default words = {
     "lgbt",
     "obèse",
     "détraqué",
-    "ravagé"
+    "ravagé",
+    "pauvre",
+    "décédé",
+    "opprimé",
+    "arabe"
   ]
 }
