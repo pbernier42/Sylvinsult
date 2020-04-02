@@ -1,7 +1,8 @@
 import React from 'react'
-import { StyleSheet , View , Text , TouchableWithoutFeedback } from 'react-native'
+import { StyleSheet , View , Text , TouchableWithoutFeedback} from 'react-native'
 import words from './InsultsData.js';
-import { isUpperCase , getRandomInt , getRandomWord , isVowel } from './Tools';
+import { isUpperCase , getRandomInt , getRandomWord , isVowel , getTunedWord , getTunedSentence } from './Tools';
+//import Speech frome 'react-native-speech'
 
 class Sentence extends React.Component {
 
@@ -30,30 +31,28 @@ class Sentence extends React.Component {
     return pronom + amplifier
   }
 
-  _getAdjectif(gender) {
-    return getRandomWord(words.adjectif[gender])
+  _getName(gender) {
+    return getRandomWord(words.name[gender])
   }
 
-  _getComplement(gender) {
-    var complement = getRandomWord(words.complement);
-    return (
-      gender == "female" &
-      complement[complement.length - 1] == 'é' ?
-        complement + 'e' : complement
-    )
+  _getComplement(gender, adjectif) {
+    var adjectif = getRandomWord(words.adjectif);
+    var complement = getRandomWord(words.complement.concat(words.adjectif.filter(word => word != adjectif)));
+    return getTunedSentence(gender, adjectif + ' ' + complement)
   }
 
   _getSentence() {
-    var gender = getRandomWord(["male", "female"]);
     var subject = this._getSubject(gender);
     var amplifier = this._getAmplifier(gender, subject);
-    var adjectif = this._getAdjectif(gender);
+    var name = this._getName(gender);
     var complement = this._getComplement(gender);
-    return subject + ' ' + amplifier + ' ' + adjectif + ' ' + complement
+    return subject + ' ' + amplifier + ' ' + name + ' ' + complement
   }
 
   _loadSentence() {
-    this.setState({ sentence: this._getSentence() })
+    var print = this._getSentence();
+    this.setState({ sentence: print });
+
   }
 
   render () {
