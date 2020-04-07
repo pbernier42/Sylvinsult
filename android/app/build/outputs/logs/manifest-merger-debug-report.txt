@@ -1,0 +1,515 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [:expo-permissions] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-screens] /home/pbernier/Bureau/Sylvinsult/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-react-native-adapter] /home/pbernier/Bureau/Sylvinsult/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /home/pbernier/Bureau/Sylvinsult/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /home/pbernier/Bureau/Sylvinsult/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-tts] /home/pbernier/Bureau/Sylvinsult/node_modules/react-native-tts/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5.aar/89805fec5980b99d527d3485dd6586de/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/a458550700fe429953de93e05de81fdb/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/5ab96851337459107f01d7f207a02362/AndroidManifest.xml:17:1-24:12
+MERGED from [:expo-app-loader-provider] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-error-recovery] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-30:12
+MERGED from [:expo-font] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-linear-gradient] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-location] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:expo-sqlite] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-web-browser] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] /home/pbernier/Bureau/Sylvinsult/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [org.webkit:android-jsc:r245459] /home/pbernier/.gradle/caches/transforms-1/files-1.1/android-jsc-r245459.aar/47ce7171004236945aebe300171f0a98/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.browser:browser:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/7a06d9773e9b95ec39034b4f021d9a0f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/transition-1.1.0.aar/d5f666f9cf0fdbc2746cb5421d451929/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/3995a31feb99aea87acb638dbcb2ab1f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/85d6c7d11d9152fadb2bdc92d5694963/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/d7fed7ee41c71316985fd4da0a6b0d24/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/eb3ce24059528273c0959ae5f12c56fe/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/afb3e9a84cabdf6a92a2e8b0920c68a7/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/5a17d5cf33ecc4aeccab13bd5e612bd8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/6a3e79d5eec0ab46d3c73ffd13ee3c3b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/87c9000f28ee548f3400e1715381f6c5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/b1c551002a07f7046bea0c5480d4c912/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/e3b822f712b4722e0519fa8f5efc6669/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/6dcb1bbb91bf623f0038bb203b63220b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/db9ae6a718929efca7e56b7ea3071b61/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/597699e94f05ebd957792200a284667c/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/2ef94aa24c2ca64b5b526df544b8b04c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/4be3ff5c2c17c7fe0e07dc75d4b9ea86/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/ffc5df0e0776d94dc88063da7c2b3cbd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/09c979d67069d4ff51c0502c236a1fa2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/1fd1af2fd4bce0a381e8e27f9d8aaafd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/1707589ab8da4275406bd61da98ac002/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/167c184fc6f937013f4de15f1dffd96f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/56c33493abeb1d2404f128b52b9ae72d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/7e4821f1e81a24ccb007c6fec8cb61b4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/0c221fb993bbe4ec433559fa87e3f13e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/c92c95a9fc355d8e47173d4a9ef1ad3b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/9b25e48603a4682cbd15fe06a18c0bdd/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/987045e182db49ea42f1f9d5f3827817/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/7d50b702847f005a78cd43f604d42453/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/24ec368255875fc21f1570f9de4a526b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/05b5eda3002894fba899f22acc5a46a9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/e98093f0baaf6582bc2231a1955dd40e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/75e424dbffe6fa1fbba82970bc4c70b0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/eb15e1e38e20432d7e722e1591a23eb8/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/4ebaee9ad1d927e4e9bb0ce29807a542/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/3164209c0f9b4fda2ed419c9ced26fdd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/22ac33b482b9b9262822d0e2da58abd4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/c14f70ca806405bf7d72ad9d5a313dae/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/70906a23bf27658ff22bc81a59234702/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/7e8eef35f7447c17a44a2d63cddcff52/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/954fec853a5a00fc3485271e6ac26470/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/fresco-2.0.0.aar/56cd58e043da73d8d70efe5e9c2121bd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-2.0.0.aar/c658b36435fb91be60d9d0623442820e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/drawee-2.0.0.aar/5a6fbe5308b956df4cc47a1cb6de3a02/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/nativeimagefilters-2.0.0.aar/9c7e2d41fc529a6cfeaa380adf617da4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/imagepipeline-2.0.0.aar/440e844cc1a261d0d9dfc3dc32f5a2df/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/nativeimagetranscoder-2.0.0.aar/4a92aa9d4e7545fa4998fe6b8addbb2f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-2.0.0.aar/a838e9b57482a87fc97e1c0eac5b3818/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/0979be2900af8c5554f3f190573e85e2/AndroidManifest.xml:2:1-13:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:2:1-30:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-2.0.0.aar/da30dc47b7fdac6a2001e4cee0ba4490/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:1:1-48:12
+	package
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:2:5-29
+		INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:8:22-72
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:10:22-72
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:11:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:12:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:16:5-81
+MERGED from [:expo-location] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:17:5-79
+MERGED from [:expo-location] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:18:22-62
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:19:22-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:21:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:22:5-80
+MERGED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:22:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:23:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:24:5-81
+MERGED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:25:22-70
+application
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:28:5-46:19
+MERGED from [com.facebook.react:react-native:0.61.5] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5.aar/89805fec5980b99d527d3485dd6586de/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5.aar/89805fec5980b99d527d3485dd6586de/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/a458550700fe429953de93e05de81fdb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/a458550700fe429953de93e05de81fdb/AndroidManifest.xml:22:5-20
+MERGED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-location] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [:expo-location] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/3995a31feb99aea87acb638dbcb2ab1f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/3995a31feb99aea87acb638dbcb2ab1f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/85d6c7d11d9152fadb2bdc92d5694963/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/85d6c7d11d9152fadb2bdc92d5694963/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/d7fed7ee41c71316985fd4da0a6b0d24/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/d7fed7ee41c71316985fd4da0a6b0d24/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/eb3ce24059528273c0959ae5f12c56fe/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/eb3ce24059528273c0959ae5f12c56fe/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/afb3e9a84cabdf6a92a2e8b0920c68a7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/afb3e9a84cabdf6a92a2e8b0920c68a7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/597699e94f05ebd957792200a284667c/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/597699e94f05ebd957792200a284667c/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/987045e182db49ea42f1f9d5f3827817/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/987045e182db49ea42f1f9d5f3827817/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/eb15e1e38e20432d7e722e1591a23eb8/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/eb15e1e38e20432d7e722e1591a23eb8/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/954fec853a5a00fc3485271e6ac26470/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/954fec853a5a00fc3485271e6ac26470/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/0979be2900af8c5554f3f190573e85e2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/0979be2900af8c5554f3f190573e85e2/AndroidManifest.xml:11:5-20
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:18:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/987045e182db49ea42f1f9d5f3827817/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:30:7-39
+	android:roundIcon
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:32:7-52
+	android:icon
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:31:7-41
+	android:allowBackup
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:33:7-34
+	android:theme
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:34:7-38
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:29:7-38
+activity#com.sylvinsult.MainActivity
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:35:7-44:18
+	android:label
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:37:9-41
+	android:windowSoftInputMode
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:39:9-51
+	android:configChanges
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:38:9-79
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:36:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:40:9-43:25
+action#android.intent.action.MAIN
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:41:13-65
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:41:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:42:13-73
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:42:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:45:7-84
+	android:name
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml:45:17-81
+uses-sdk
+INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+MERGED from [:expo-permissions] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /home/pbernier/Bureau/Sylvinsult/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /home/pbernier/Bureau/Sylvinsult/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] /home/pbernier/Bureau/Sylvinsult/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] /home/pbernier/Bureau/Sylvinsult/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/pbernier/Bureau/Sylvinsult/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/pbernier/Bureau/Sylvinsult/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/pbernier/Bureau/Sylvinsult/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/pbernier/Bureau/Sylvinsult/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-tts] /home/pbernier/Bureau/Sylvinsult/node_modules/react-native-tts/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-tts] /home/pbernier/Bureau/Sylvinsult/node_modules/react-native-tts/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5.aar/89805fec5980b99d527d3485dd6586de/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5.aar/89805fec5980b99d527d3485dd6586de/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/a458550700fe429953de93e05de81fdb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/a458550700fe429953de93e05de81fdb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/5ab96851337459107f01d7f207a02362/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/5ab96851337459107f01d7f207a02362/AndroidManifest.xml:20:5-22:41
+MERGED from [:expo-app-loader-provider] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-font] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /home/pbernier/Bureau/Sylvinsult/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /home/pbernier/Bureau/Sylvinsult/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /home/pbernier/Bureau/Sylvinsult/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/pbernier/.gradle/caches/transforms-1/files-1.1/android-jsc-r245459.aar/47ce7171004236945aebe300171f0a98/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/pbernier/.gradle/caches/transforms-1/files-1.1/android-jsc-r245459.aar/47ce7171004236945aebe300171f0a98/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.browser:browser:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/7a06d9773e9b95ec39034b4f021d9a0f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/7a06d9773e9b95ec39034b4f021d9a0f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/transition-1.1.0.aar/d5f666f9cf0fdbc2746cb5421d451929/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/transition-1.1.0.aar/d5f666f9cf0fdbc2746cb5421d451929/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/3995a31feb99aea87acb638dbcb2ab1f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/3995a31feb99aea87acb638dbcb2ab1f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/85d6c7d11d9152fadb2bdc92d5694963/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/85d6c7d11d9152fadb2bdc92d5694963/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/d7fed7ee41c71316985fd4da0a6b0d24/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/d7fed7ee41c71316985fd4da0a6b0d24/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/eb3ce24059528273c0959ae5f12c56fe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/eb3ce24059528273c0959ae5f12c56fe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/afb3e9a84cabdf6a92a2e8b0920c68a7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/afb3e9a84cabdf6a92a2e8b0920c68a7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/5a17d5cf33ecc4aeccab13bd5e612bd8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/5a17d5cf33ecc4aeccab13bd5e612bd8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/6a3e79d5eec0ab46d3c73ffd13ee3c3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/6a3e79d5eec0ab46d3c73ffd13ee3c3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/87c9000f28ee548f3400e1715381f6c5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/87c9000f28ee548f3400e1715381f6c5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/b1c551002a07f7046bea0c5480d4c912/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/b1c551002a07f7046bea0c5480d4c912/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/e3b822f712b4722e0519fa8f5efc6669/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/e3b822f712b4722e0519fa8f5efc6669/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/6dcb1bbb91bf623f0038bb203b63220b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/6dcb1bbb91bf623f0038bb203b63220b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/db9ae6a718929efca7e56b7ea3071b61/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/db9ae6a718929efca7e56b7ea3071b61/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/597699e94f05ebd957792200a284667c/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/597699e94f05ebd957792200a284667c/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/2ef94aa24c2ca64b5b526df544b8b04c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/2ef94aa24c2ca64b5b526df544b8b04c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/4be3ff5c2c17c7fe0e07dc75d4b9ea86/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/4be3ff5c2c17c7fe0e07dc75d4b9ea86/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/ffc5df0e0776d94dc88063da7c2b3cbd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/ffc5df0e0776d94dc88063da7c2b3cbd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/09c979d67069d4ff51c0502c236a1fa2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/09c979d67069d4ff51c0502c236a1fa2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/1fd1af2fd4bce0a381e8e27f9d8aaafd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/1fd1af2fd4bce0a381e8e27f9d8aaafd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/1707589ab8da4275406bd61da98ac002/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/1707589ab8da4275406bd61da98ac002/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/167c184fc6f937013f4de15f1dffd96f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/167c184fc6f937013f4de15f1dffd96f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/56c33493abeb1d2404f128b52b9ae72d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/56c33493abeb1d2404f128b52b9ae72d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/7e4821f1e81a24ccb007c6fec8cb61b4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/7e4821f1e81a24ccb007c6fec8cb61b4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/0c221fb993bbe4ec433559fa87e3f13e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/0c221fb993bbe4ec433559fa87e3f13e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/c92c95a9fc355d8e47173d4a9ef1ad3b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/c92c95a9fc355d8e47173d4a9ef1ad3b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/9b25e48603a4682cbd15fe06a18c0bdd/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/9b25e48603a4682cbd15fe06a18c0bdd/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/987045e182db49ea42f1f9d5f3827817/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/987045e182db49ea42f1f9d5f3827817/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/7d50b702847f005a78cd43f604d42453/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/7d50b702847f005a78cd43f604d42453/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/24ec368255875fc21f1570f9de4a526b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/24ec368255875fc21f1570f9de4a526b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/05b5eda3002894fba899f22acc5a46a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/05b5eda3002894fba899f22acc5a46a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/e98093f0baaf6582bc2231a1955dd40e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/e98093f0baaf6582bc2231a1955dd40e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/75e424dbffe6fa1fbba82970bc4c70b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/75e424dbffe6fa1fbba82970bc4c70b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/eb15e1e38e20432d7e722e1591a23eb8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/eb15e1e38e20432d7e722e1591a23eb8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/4ebaee9ad1d927e4e9bb0ce29807a542/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/4ebaee9ad1d927e4e9bb0ce29807a542/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/3164209c0f9b4fda2ed419c9ced26fdd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/3164209c0f9b4fda2ed419c9ced26fdd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/22ac33b482b9b9262822d0e2da58abd4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/22ac33b482b9b9262822d0e2da58abd4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/c14f70ca806405bf7d72ad9d5a313dae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/c14f70ca806405bf7d72ad9d5a313dae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/70906a23bf27658ff22bc81a59234702/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/70906a23bf27658ff22bc81a59234702/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/7e8eef35f7447c17a44a2d63cddcff52/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/7e8eef35f7447c17a44a2d63cddcff52/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/954fec853a5a00fc3485271e6ac26470/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/954fec853a5a00fc3485271e6ac26470/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/fresco-2.0.0.aar/56cd58e043da73d8d70efe5e9c2121bd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/fresco-2.0.0.aar/56cd58e043da73d8d70efe5e9c2121bd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-2.0.0.aar/c658b36435fb91be60d9d0623442820e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-2.0.0.aar/c658b36435fb91be60d9d0623442820e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/drawee-2.0.0.aar/5a6fbe5308b956df4cc47a1cb6de3a02/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/drawee-2.0.0.aar/5a6fbe5308b956df4cc47a1cb6de3a02/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/nativeimagefilters-2.0.0.aar/9c7e2d41fc529a6cfeaa380adf617da4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/nativeimagefilters-2.0.0.aar/9c7e2d41fc529a6cfeaa380adf617da4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/imagepipeline-2.0.0.aar/440e844cc1a261d0d9dfc3dc32f5a2df/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/imagepipeline-2.0.0.aar/440e844cc1a261d0d9dfc3dc32f5a2df/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/nativeimagetranscoder-2.0.0.aar/4a92aa9d4e7545fa4998fe6b8addbb2f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/nativeimagetranscoder-2.0.0.aar/4a92aa9d4e7545fa4998fe6b8addbb2f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-2.0.0.aar/a838e9b57482a87fc97e1c0eac5b3818/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-2.0.0.aar/a838e9b57482a87fc97e1c0eac5b3818/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/0979be2900af8c5554f3f190573e85e2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/0979be2900af8c5554f3f190573e85e2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-2.0.0.aar/da30dc47b7fdac6a2001e4cee0ba4490/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-2.0.0.aar/da30dc47b7fdac6a2001e4cee0ba4490/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pbernier/Bureau/Sylvinsult/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.STORAGE
+ADDED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
+	android:exported
+		ADDED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
+	android:resource
+		ADDED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
+	android:name
+		ADDED from [:expo-file-system] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:expo-location] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:expo-location] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-74
+service#expo.modules.location.services.LocationTaskService
+ADDED from [:expo-location] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:expo-location] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:expo-location] /home/pbernier/Bureau/Sylvinsult/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/85d6c7d11d9152fadb2bdc92d5694963/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/85d6c7d11d9152fadb2bdc92d5694963/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/85d6c7d11d9152fadb2bdc92d5694963/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/85d6c7d11d9152fadb2bdc92d5694963/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/afb3e9a84cabdf6a92a2e8b0920c68a7/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/afb3e9a84cabdf6a92a2e8b0920c68a7/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/afb3e9a84cabdf6a92a2e8b0920c68a7/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:13:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /home/pbernier/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/5fbe7ebe484456b6a86fe27e80e0129e/AndroidManifest.xml:26:13-120

@@ -2,7 +2,7 @@ import React from 'react'
 import { StyleSheet , View , Text , TouchableWithoutFeedback} from 'react-native'
 import words from './InsultsData.js';
 import { isUpperCase , getRandomInt , getRandomWord , isVowel , getTunedWord , getTunedSentence } from './Tools';
-//import Speech frome 'react-native-speech'
+import Speech frome 'react-native-speech'
 
 class Sentence extends React.Component {
 
@@ -42,6 +42,7 @@ class Sentence extends React.Component {
   }
 
   _getSentence() {
+    var gender = getRandomWord(["male", "female"]);
     var subject = this._getSubject(gender);
     var amplifier = this._getAmplifier(gender, subject);
     var name = this._getName(gender);
